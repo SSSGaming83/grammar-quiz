@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grammar Quiz Game</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Grammar Quiz Game</h1>
+    <div id="game-info">
+      <p><strong>Score:</strong> <span id="score">0</span></p>
+      <p><strong>High Score:</strong> <span id="high-score">0</span></p>
+      <p><strong>Time Left:</strong> <span id="timer">47</span> seconds</p>
+      <p><strong>Lives Left:</strong> <span id="lives">3</span></p>
+    </div>
+    <div id="question-area">
+      <p id="question">Press Start to begin the quiz!</p>
+      <input type="text" id="answer" placeholder="Type your answer here" disabled>
+    </div>
+    <button id="start-btn">Start Quiz</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

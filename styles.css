@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f3f4f6;
+  color: #333;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  color: #007bff;
+}
+
+#game-info p {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+#question-area {
+  margin: 20px 0;
+}
+
+#answer {
+  padding: 10px;
+  font-size: 1em;
+  width: 80%;
+  margin-top: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1em;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
